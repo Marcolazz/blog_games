@@ -17,18 +17,18 @@
         }
     </style>
 </head>
-<body class="bg-dark">
+<body class="bg-light">
     <main class="container mt-4">
         <!-- Formulário de Login -->
         <section class="row mb-5">
-            <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixaLogin">
+            <div class="col-lg-4 offset-lg-4 bg-light rounded border border-dark" id="caixaLogin">
                 <h2 class="text-center mt-2">Entrada no sistema</h2>
                 <form action="#" id="formLogin" class="p-2">
                     <div class="form-group">
-                        <input type="text" name="nomeUsuario" id="nomeUsuario" class="form-control" placeholder="Nome do usuário" minlength="5" required>
+                        <input type="text" name="nomeUsuario" id="nomeUsuario" class="form-control border border-dark" placeholder="Nome do usuário" minlength="5" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" name="senhaUsuario" id="senhaUsuario" class="form-control" placeholder="Senha" required minlength="6">
+                        <input type="password" name="senhaUsuario" id="senhaUsuario" class="form-control border border-dark" placeholder="Senha" required minlength="6">
                     </div>
                     <div class="form-group mt-5">
                         <div class="custom-control custom-checkbox">
@@ -57,7 +57,7 @@
         </section>
         <!-- Formulário de recuperação de senha -->
         <section class="row mb-5">
-            <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixaRecuperarSenha">
+            <div class="col-lg-4 offset-lg-4 bg-light rounded border border-dark" id="caixaRecuperarSenha">
                 <h2 class="text-center">Gerar nova senha</h2>
                 <form action="#" id="formSenha">
                     <div class="form-group">
@@ -67,7 +67,7 @@
                         </small>
                     </div>
                     <div class="form-group">
-                        <input type="email" name="emailSenha" id="emailSenha" class="form-control" placeholder="E-mail" required>
+                        <input type="email" name="emailSenha" id="emailSenha" class="form-control border border-dark" placeholder="E-mail" required>
                     </div>
                     <div class="form-group">
                         <input type="submit" value=" Enviar e-mail " id="btnEnviarEmail" class="btn btn-primary btn-block">

@@ -17,27 +17,27 @@
         }
     </style>
 </head>
-<body class="bg-dark">
+<body class="bg-light">
     <main class="container mt-4">
         <!-- Formulário de Cadastro -->
         <section class="row mb-5">
-            <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixaCadastro">
+            <div class="col-lg-4 offset-lg-4 bg-light rounded border border-dark" id="caixaCadastro">
                 <h2 class="text-center">Cadastro de Usuário</h2>
                 <form action="#" class="p-2" id="formCadastro">
                     <div class="form-group">
-                        <input type="text" name="nomeCompleto" id="nomeCompleto" class="form-control" placeholder="Nome completo" required minlength="5">
+                        <input type="text" name="nomeCompleto" id="nomeCompleto" class="form-control border border-dark" placeholder="Nome completo" required minlength="5">
                     </div>
                     <div class="form-group">
-                        <input type="text" name="nomeUsuário" id="nomeUsuário" class="form-control" placeholder="Nome de Usuário" required minlength="5">
+                        <input type="text" name="nomeUsuário" id="nomeUsuário" class="form-control border border-dark" placeholder="Nome de Usuário" required minlength="5">
                     </div>
                     <div class="form-group">
-                        <input type="email" name="emailUsuário" id="emailUsuário" class="form-control" placeholder="E-mail de Usuário" required>
+                        <input type="email" name="emailUsuário" id="emailUsuário" class="form-control border border-dark" placeholder="E-mail de Usuário" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" name="senhaUsuário" id="senhaUsuário" class="form-control" placeholder="Digite sua senha" required minlength="6">
+                        <input type="password" name="senhaUsuário" id="senhaUsuário" class="form-control border border-dark" placeholder="Digite sua senha" required minlength="6">
                     </div>
                     <div class="form-group">
-                        <input type="password" name="senhaConfirma" id="senhaConfirma" class="form-control" placeholder="Confirme a sua senha" required minlength="6">
+                        <input type="password" name="senhaConfirma" id="senhaConfirma" class="form-control border border-dark" placeholder="Confirme a sua senha" required minlength="6">
                     </div>
                     <div class="form-group mt-5">
                         <div class="custom-control custom-checkbox">

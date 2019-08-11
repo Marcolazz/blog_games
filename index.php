@@ -48,6 +48,37 @@
             </div>
         </div>
         </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide mt-5 border border-dark" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/r6.jpg" class="d-block w-100" alt="Rainbow Six Siege">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/gta.jpg" class="d-block w-100" alt="GTA 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/fifa.jpg" class="d-block w-100" alt="FIFA 20">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/nms.jpg" class="d-block w-100" alt="No Man's Sky">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>       
     </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
